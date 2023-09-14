@@ -1,0 +1,436 @@
+2023-09-14 22:28:30.752 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 22:28:31.125 +07:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-09-14 22:28:31.126 +07:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-09-14 22:28:31.184 +07:00 [DBG] The property 'Colour.TodoListId' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-09-14 22:28:31.227 +07:00 [DBG] Entity Framework Core 7.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:7.0.7' with options: StoreName=CleanArchitectureDb 
+2023-09-14 22:28:31.242 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-14 22:30:41.591 +07:00 [INF] Starting Duende IdentityServer version 6.0.4+9dfb7e94e795f55b2c063d54d11b70aae05e4e07 (.NET 7.0.10)
+2023-09-14 22:30:41.630 +07:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2023-09-14 22:30:41.692 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 22:30:41.721 +07:00 [INF] Configuring local API resource 'WebUIAPI'.
+2023-09-14 22:30:41.728 +07:00 [INF] Configuring client 'CleanArchitecture.WebUI'.
+2023-09-14 22:30:41.734 +07:00 [INF] Loading development key at 'E:\KY7\SWD\Project\SWD-MetroDelivery\src\WebUI\obj/tempkey.json'.
+2023-09-14 22:30:41.812 +07:00 [INF] Resource 'WebUIAPI' allows all applications.
+2023-09-14 22:30:41.814 +07:00 [INF] Identity resource 'openid' allows all applications.
+2023-09-14 22:30:41.815 +07:00 [INF] Identity resource 'profile' allows all applications.
+2023-09-14 22:30:41.821 +07:00 [INF] Using explicitly configured authentication scheme Identity.Application for IdentityServer
+2023-09-14 22:30:41.823 +07:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2023-09-14 22:30:41.823 +07:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2023-09-14 22:30:41.824 +07:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2023-09-14 22:30:41.825 +07:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2023-09-14 22:30:41.825 +07:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2023-09-14 22:30:41.849 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'.
+2023-09-14 22:30:41.851 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_LoginPartial.cshtml'.
+2023-09-14 22:30:41.852 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2023-09-14 22:30:41.852 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/AccessDenied.cshtml'.
+2023-09-14 22:30:41.853 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmail.cshtml'.
+2023-09-14 22:30:41.854 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml'.
+2023-09-14 22:30:41.854 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ExternalLogin.cshtml'.
+2023-09-14 22:30:41.855 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPassword.cshtml'.
+2023-09-14 22:30:41.856 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml'.
+2023-09-14 22:30:41.857 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Lockout.cshtml'.
+2023-09-14 22:30:41.857 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Login.cshtml'.
+2023-09-14 22:30:41.858 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWith2fa.cshtml'.
+2023-09-14 22:30:41.859 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml'.
+2023-09-14 22:30:41.859 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Logout.cshtml'.
+2023-09-14 22:30:41.861 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml'.
+2023-09-14 22:30:41.862 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml'.
+2023-09-14 22:30:41.863 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml'.
+2023-09-14 22:30:41.863 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml'.
+2023-09-14 22:30:41.864 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Email.cshtml'.
+2023-09-14 22:30:41.865 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml'.
+2023-09-14 22:30:41.866 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml'.
+2023-09-14 22:30:41.867 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml'.
+2023-09-14 22:30:41.867 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Index.cshtml'.
+2023-09-14 22:30:41.868 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml'.
+2023-09-14 22:30:41.869 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml'.
+2023-09-14 22:30:41.870 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml'.
+2023-09-14 22:30:41.870 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml'.
+2023-09-14 22:30:41.871 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml'.
+2023-09-14 22:30:41.872 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_Layout.cshtml'.
+2023-09-14 22:30:41.873 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml'.
+2023-09-14 22:30:41.873 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml'.
+2023-09-14 22:30:41.874 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml'.
+2023-09-14 22:30:41.875 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml'.
+2023-09-14 22:30:41.876 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Register.cshtml'.
+2023-09-14 22:30:41.877 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml'.
+2023-09-14 22:30:41.878 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml'.
+2023-09-14 22:30:41.879 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPassword.cshtml'.
+2023-09-14 22:30:41.880 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml'.
+2023-09-14 22:30:41.881 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_StatusMessage.cshtml'.
+2023-09-14 22:30:41.882 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_ViewImports.cshtml'.
+2023-09-14 22:30:41.883 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Error.cshtml'.
+2023-09-14 22:30:41.884 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_Layout.cshtml'.
+2023-09-14 22:30:41.884 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml'.
+2023-09-14 22:30:41.885 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewImports.cshtml'.
+2023-09-14 22:30:41.886 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewStart.cshtml'.
+2023-09-14 22:30:41.893 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-14 22:30:41.914 +07:00 [INF] User profile is available. Using 'C:\Users\vinht\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-14 22:30:42.012 +07:00 [DBG] Hosting starting
+2023-09-14 22:30:42.017 +07:00 [DBG] Reading data from file 'C:\Users\vinht\AppData\Local\ASP.NET\DataProtection-Keys\key-90761b1a-33be-479d-9250-19841fd97778.xml'.
+2023-09-14 22:30:42.024 +07:00 [DBG] Found key {90761b1a-33be-479d-9250-19841fd97778}.
+2023-09-14 22:30:42.032 +07:00 [DBG] Considering key {90761b1a-33be-479d-9250-19841fd97778} with expiration date 2023-12-05 14:40:58Z as default key.
+2023-09-14 22:30:42.036 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-14 22:30:42.037 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-09-14 22:30:42.038 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-14 22:30:42.041 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-09-14 22:30:42.044 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-09-14 22:30:42.049 +07:00 [DBG] Using key {90761b1a-33be-479d-9250-19841fd97778} as the default key.
+2023-09-14 22:30:42.051 +07:00 [DBG] Key ring with default key {90761b1a-33be-479d-9250-19841fd97778} was loaded during application startup.
+2023-09-14 22:30:42.115 +07:00 [INF] Now listening on: https://localhost:5001
+2023-09-14 22:30:42.117 +07:00 [INF] Now listening on: http://localhost:5000
+2023-09-14 22:30:42.118 +07:00 [DBG] Loaded hosting startup assembly WebUI
+2023-09-14 22:30:42.118 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.SpaProxy
+2023-09-14 22:30:42.119 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-14 22:30:42.119 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-14 22:30:42.120 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-14 22:30:42.121 +07:00 [INF] Hosting environment: Development
+2023-09-14 22:30:42.121 +07:00 [INF] Content root path: E:\KY7\SWD\Project\SWD-MetroDelivery\src\WebUI
+2023-09-14 22:30:42.122 +07:00 [DBG] Hosting started
+2023-09-14 22:30:42.381 +07:00 [DBG] Connection id "0HMTL6U7A280G" accepted.
+2023-09-14 22:30:42.383 +07:00 [DBG] Connection id "0HMTL6U7A280G" started.
+2023-09-14 22:30:42.391 +07:00 [DBG] Connection id "0HMTL6U7A280H" accepted.
+2023-09-14 22:30:42.392 +07:00 [DBG] Connection id "0HMTL6U7A280H" started.
+2023-09-14 22:30:42.408 +07:00 [DBG] Connection id "0HMTL6U7A280H" received FIN.
+2023-09-14 22:30:42.408 +07:00 [DBG] Connection id "0HMTL6U7A280G" received FIN.
+2023-09-14 22:30:42.413 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-14 22:30:42.413 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-14 22:30:42.433 +07:00 [DBG] Connection id "0HMTL6U7A280H" stopped.
+2023-09-14 22:30:42.433 +07:00 [DBG] Connection id "0HMTL6U7A280G" stopped.
+2023-09-14 22:30:42.437 +07:00 [DBG] Connection id "0HMTL6U7A280H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:30:42.437 +07:00 [DBG] Connection id "0HMTL6U7A280G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:30:42.794 +07:00 [DBG] Connection id "0HMTL6U7A280I" accepted.
+2023-09-14 22:30:42.795 +07:00 [DBG] Connection id "0HMTL6U7A280I" started.
+2023-09-14 22:30:42.869 +07:00 [DBG] Connection 0HMTL6U7A280I established using the following protocol: "Tls13"
+2023-09-14 22:30:42.902 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2023-09-14 22:30:42.907 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-09-14 22:30:42.909 +07:00 [VRB] Connection id "0HMTL6U7A280I" received "SETTINGS" frame for stream ID 0 with length 30 and flags "NONE".
+2023-09-14 22:30:42.912 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-09-14 22:30:42.913 +07:00 [VRB] Connection id "0HMTL6U7A280I" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-09-14 22:30:42.915 +07:00 [VRB] Connection id "0HMTL6U7A280I" received "HEADERS" frame for stream ID 1 with length 447 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-09-14 22:30:42.933 +07:00 [VRB] Connection id "0HMTL6U7A280I" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-09-14 22:30:42.943 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-09-14 22:30:47.114 +07:00 [DBG] Failed to connect to the SPA Development proxy.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:44447)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.AspNetCore.SpaProxy.SpaProxyLaunchManager.IsSpaProxyRunning(CancellationToken cancellationToken)
+2023-09-14 22:30:47.143 +07:00 [INF] No SPA development server running at https://localhost:44447 found.
+2023-09-14 22:30:47.267 +07:00 [DBG] Watch process 'System.Diagnostics.Process (powershell)' started.
+2023-09-14 22:30:47.273 +07:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2023-09-14 22:30:47.279 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "HEADERS" frame for stream ID 1 with length 100 and flags "END_HEADERS".
+2023-09-14 22:30:47.280 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html 4338.9125ms
+2023-09-14 22:30:47.283 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "DATA" frame for stream ID 1 with length 505 and flags "NONE".
+2023-09-14 22:30:47.287 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2023-09-14 22:30:51.365 +07:00 [DBG] Failed to connect to the SPA Development proxy.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:44447)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.AspNetCore.SpaProxy.SpaProxyLaunchManager.ProbeSpaDevelopmentServerUrl(HttpClient httpClient, CancellationToken cancellationToken)
+2023-09-14 22:30:51.424 +07:00 [VRB] Connection id "0HMTL6U7A280I" received "HEADERS" frame for stream ID 3 with length 57 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-09-14 22:30:51.432 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-09-14 22:30:56.953 +07:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44447.
+2023-09-14 22:30:56.953 +07:00 [INF] SPA development server running at 'https://localhost:44447'
+2023-09-14 22:30:56.955 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 302 0 - 5523.2124ms
+2023-09-14 22:30:56.955 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "HEADERS" frame for stream ID 3 with length 67 and flags "END_STREAM, END_HEADERS".
+2023-09-14 22:30:57.361 +07:00 [DBG] Connection id "0HMTL6U7A280J" accepted.
+2023-09-14 22:30:57.363 +07:00 [DBG] Connection id "0HMTL6U7A280J" started.
+2023-09-14 22:30:57.367 +07:00 [DBG] Connection 0HMTL6U7A280J established using the following protocol: "Tls13"
+2023-09-14 22:30:57.379 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44447/_configuration/CleanArchitecture.WebUI - -
+2023-09-14 22:30:57.385 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-14 22:30:57.387 +07:00 [VRB] All hosts are allowed.
+2023-09-14 22:30:57.389 +07:00 [DBG] The request path /_configuration/CleanArchitecture.WebUI does not match a supported file type
+2023-09-14 22:30:57.405 +07:00 [DBG] The request path  does not match the path filter
+2023-09-14 22:30:57.435 +07:00 [DBG] 2 candidate(s) found for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.439 +07:00 [DBG] Endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)' with route pattern '_configuration/{clientId}' is valid for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.443 +07:00 [DBG] Endpoint 'Fallback {*path:nonfile}' with route pattern '{*path:nonfile}' was rejected by constraint 'path':'Microsoft.AspNetCore.Routing.Constraints.NonFileNameRouteConstraint' with value '_configuration/CleanArchitecture.WebUI' for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.446 +07:00 [DBG] Endpoint 'Fallback {*path:nonfile}' with route pattern '{*path:nonfile}' is not valid for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.447 +07:00 [DBG] Request matched endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)'
+2023-09-14 22:30:57.462 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-09-14 22:30:57.467 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-09-14 22:30:57.488 +07:00 [DBG] Login Url: /Identity/Account/Login
+2023-09-14 22:30:57.488 +07:00 [DBG] Login Return Url Parameter: ReturnUrl
+2023-09-14 22:30:57.489 +07:00 [DBG] Logout Url: /Identity/Account/Logout
+2023-09-14 22:30:57.490 +07:00 [DBG] ConsentUrl Url: /consent
+2023-09-14 22:30:57.491 +07:00 [DBG] Consent Return Url Parameter: returnUrl
+2023-09-14 22:30:57.492 +07:00 [DBG] Error Url: /Home
+2023-09-14 22:30:57.493 +07:00 [DBG] Error Id Parameter: errorId
+2023-09-14 22:30:57.495 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2023-09-14 22:30:57.497 +07:00 [VRB] No endpoint entry found for request path: /_configuration/CleanArchitecture.WebUI
+2023-09-14 22:30:57.499 +07:00 [INF] Executing endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)'
+2023-09-14 22:30:57.512 +07:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller CleanArchitecture.WebUI.Controllers.OidcConfigurationController (WebUI).
+2023-09-14 22:30:57.515 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-14 22:30:57.518 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-09-14 22:30:57.520 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-09-14 22:30:57.522 +07:00 [DBG] Execution plan of exception filters (in the following order): ["CleanArchitecture.WebUI.Filters.ApiExceptionFilterAttribute (Order: 0)"]
+2023-09-14 22:30:57.523 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-09-14 22:30:57.526 +07:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.528 +07:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.530 +07:00 [DBG] Executing controller factory for controller CleanArchitecture.WebUI.Controllers.OidcConfigurationController (WebUI)
+2023-09-14 22:30:57.532 +07:00 [DBG] Executed controller factory for controller CleanArchitecture.WebUI.Controllers.OidcConfigurationController (WebUI)
+2023-09-14 22:30:57.537 +07:00 [DBG] Attempting to bind parameter 'clientId' of type 'System.String' ...
+2023-09-14 22:30:57.539 +07:00 [DBG] Attempting to bind parameter 'clientId' of type 'System.String' using the name 'clientId' in request data ...
+2023-09-14 22:30:57.542 +07:00 [DBG] Done attempting to bind parameter 'clientId' of type 'System.String'.
+2023-09-14 22:30:57.545 +07:00 [DBG] Done attempting to bind parameter 'clientId' of type 'System.String'.
+2023-09-14 22:30:57.546 +07:00 [DBG] Attempting to validate the bound parameter 'clientId' of type 'System.String' ...
+2023-09-14 22:30:57.550 +07:00 [DBG] Done attempting to validate the bound parameter 'clientId' of type 'System.String'.
+2023-09-14 22:30:57.552 +07:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-09-14 22:30:57.553 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.554 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.559 +07:00 [INF] Executing action method CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI) - Validation state: "Valid"
+2023-09-14 22:30:57.561 +07:00 [VRB] Executing action method CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI) with arguments (["CleanArchitecture.WebUI"])
+2023-09-14 22:30:57.567 +07:00 [INF] Executed action method CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.0254ms.
+2023-09-14 22:30:57.568 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.569 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.570 +07:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-09-14 22:30:57.571 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.573 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.576 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-09-14 22:30:57.579 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-09-14 22:30:57.584 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-09-14 22:30:57.584 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-14 22:30:57.585 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-14 22:30:57.587 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-14 22:30:57.590 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-14 22:30:57.611 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-09-14 22:30:57.612 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.614 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.616 +07:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.617 +07:00 [DBG] Connection id "0HMTL6U7A280K" accepted.
+2023-09-14 22:30:57.618 +07:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.619 +07:00 [DBG] Connection id "0HMTL6U7A280K" started.
+2023-09-14 22:30:57.622 +07:00 [INF] Executed action CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI) in 95.0969ms
+2023-09-14 22:30:57.623 +07:00 [DBG] Connection 0HMTL6U7A280K established using the following protocol: "Tls13"
+2023-09-14 22:30:57.624 +07:00 [INF] Executed endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)'
+2023-09-14 22:30:57.626 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44447/_configuration/CleanArchitecture.WebUI - -
+2023-09-14 22:30:57.627 +07:00 [DBG] Connection id "0HMTL6U7A280J" completed keep alive response.
+2023-09-14 22:30:57.628 +07:00 [VRB] All hosts are allowed.
+2023-09-14 22:30:57.628 +07:00 [DBG] Connection id "0HMTL6U7A280J" received FIN.
+2023-09-14 22:30:57.629 +07:00 [DBG] The request path /_configuration/CleanArchitecture.WebUI does not match a supported file type
+2023-09-14 22:30:57.630 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44447/_configuration/CleanArchitecture.WebUI - - - 200 - application/json;+charset=utf-8 250.6026ms
+2023-09-14 22:30:57.630 +07:00 [DBG] Connection id "0HMTL6U7A280J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:30:57.632 +07:00 [DBG] The request path  does not match the path filter
+2023-09-14 22:30:57.634 +07:00 [DBG] Connection id "0HMTL6U7A280J" disconnecting.
+2023-09-14 22:30:57.636 +07:00 [DBG] 2 candidate(s) found for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.638 +07:00 [DBG] Endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)' with route pattern '_configuration/{clientId}' is valid for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.639 +07:00 [DBG] Endpoint 'Fallback {*path:nonfile}' with route pattern '{*path:nonfile}' was rejected by constraint 'path':'Microsoft.AspNetCore.Routing.Constraints.NonFileNameRouteConstraint' with value '_configuration/CleanArchitecture.WebUI' for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.640 +07:00 [DBG] Connection id "0HMTL6U7A280J" stopped.
+2023-09-14 22:30:57.642 +07:00 [DBG] Endpoint 'Fallback {*path:nonfile}' with route pattern '{*path:nonfile}' is not valid for the request path '/_configuration/CleanArchitecture.WebUI'
+2023-09-14 22:30:57.646 +07:00 [DBG] Request matched endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)'
+2023-09-14 22:30:57.652 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-09-14 22:30:57.654 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-09-14 22:30:57.660 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2023-09-14 22:30:57.661 +07:00 [VRB] No endpoint entry found for request path: /_configuration/CleanArchitecture.WebUI
+2023-09-14 22:30:57.663 +07:00 [INF] Executing endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)'
+2023-09-14 22:30:57.665 +07:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller CleanArchitecture.WebUI.Controllers.OidcConfigurationController (WebUI).
+2023-09-14 22:30:57.666 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-14 22:30:57.668 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-09-14 22:30:57.669 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2023-09-14 22:30:57.671 +07:00 [DBG] Execution plan of exception filters (in the following order): ["CleanArchitecture.WebUI.Filters.ApiExceptionFilterAttribute (Order: 0)"]
+2023-09-14 22:30:57.673 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2023-09-14 22:30:57.674 +07:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.676 +07:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.677 +07:00 [DBG] Executing controller factory for controller CleanArchitecture.WebUI.Controllers.OidcConfigurationController (WebUI)
+2023-09-14 22:30:57.678 +07:00 [DBG] Executed controller factory for controller CleanArchitecture.WebUI.Controllers.OidcConfigurationController (WebUI)
+2023-09-14 22:30:57.679 +07:00 [DBG] Attempting to bind parameter 'clientId' of type 'System.String' ...
+2023-09-14 22:30:57.681 +07:00 [DBG] Attempting to bind parameter 'clientId' of type 'System.String' using the name 'clientId' in request data ...
+2023-09-14 22:30:57.682 +07:00 [DBG] Done attempting to bind parameter 'clientId' of type 'System.String'.
+2023-09-14 22:30:57.683 +07:00 [DBG] Done attempting to bind parameter 'clientId' of type 'System.String'.
+2023-09-14 22:30:57.684 +07:00 [DBG] Attempting to validate the bound parameter 'clientId' of type 'System.String' ...
+2023-09-14 22:30:57.685 +07:00 [DBG] Done attempting to validate the bound parameter 'clientId' of type 'System.String'.
+2023-09-14 22:30:57.686 +07:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-09-14 22:30:57.687 +07:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.688 +07:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.689 +07:00 [INF] Executing action method CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI) - Validation state: "Valid"
+2023-09-14 22:30:57.690 +07:00 [VRB] Executing action method CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI) with arguments (["CleanArchitecture.WebUI"])
+2023-09-14 22:30:57.693 +07:00 [INF] Executed action method CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2853ms.
+2023-09-14 22:30:57.694 +07:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.695 +07:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-09-14 22:30:57.696 +07:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2023-09-14 22:30:57.698 +07:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.699 +07:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.700 +07:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-09-14 22:30:57.701 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-09-14 22:30:57.703 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-09-14 22:30:57.703 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-14 22:30:57.704 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-14 22:30:57.705 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-14 22:30:57.706 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-14 22:30:57.707 +07:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-09-14 22:30:57.708 +07:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.710 +07:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.711 +07:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.712 +07:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2023-09-14 22:30:57.713 +07:00 [INF] Executed action CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI) in 38.3951ms
+2023-09-14 22:30:57.714 +07:00 [INF] Executed endpoint 'CleanArchitecture.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (WebUI)'
+2023-09-14 22:30:57.714 +07:00 [DBG] Connection id "0HMTL6U7A280K" completed keep alive response.
+2023-09-14 22:30:57.715 +07:00 [DBG] Connection id "0HMTL6U7A280K" received FIN.
+2023-09-14 22:30:57.715 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44447/_configuration/CleanArchitecture.WebUI - - - 200 - application/json;+charset=utf-8 89.1515ms
+2023-09-14 22:30:57.716 +07:00 [DBG] Connection id "0HMTL6U7A280K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:30:57.717 +07:00 [DBG] Connection id "0HMTL6U7A280K" disconnecting.
+2023-09-14 22:30:57.718 +07:00 [DBG] Connection id "0HMTL6U7A280K" stopped.
+2023-09-14 22:31:58.751 +07:00 [DBG] Connection id "0HMTL6U7A280L" accepted.
+2023-09-14 22:31:58.754 +07:00 [DBG] Connection id "0HMTL6U7A280L" started.
+2023-09-14 22:31:58.758 +07:00 [DBG] Connection 0HMTL6U7A280L established using the following protocol: "Tls13"
+2023-09-14 22:31:58.761 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44447/api - -
+2023-09-14 22:31:58.768 +07:00 [VRB] All hosts are allowed.
+2023-09-14 22:31:58.770 +07:00 [DBG] The request path /api does not match a supported file type
+2023-09-14 22:31:58.772 +07:00 [DBG] The request path  does not match the path filter
+2023-09-14 22:31:58.773 +07:00 [DBG] 1 candidate(s) found for the request path '/api'
+2023-09-14 22:31:58.773 +07:00 [DBG] Endpoint 'Fallback {*path:nonfile}' with route pattern '{*path:nonfile}' is valid for the request path '/api'
+2023-09-14 22:31:58.774 +07:00 [DBG] Request matched endpoint 'Fallback {*path:nonfile}'
+2023-09-14 22:31:58.775 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-09-14 22:31:58.777 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-09-14 22:31:58.782 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2023-09-14 22:31:58.784 +07:00 [VRB] No endpoint entry found for request path: /api
+2023-09-14 22:31:58.785 +07:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2023-09-14 22:31:58.786 +07:00 [DBG] The request path /index.html does not match an existing file
+2023-09-14 22:31:58.787 +07:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2023-09-14 22:31:58.790 +07:00 [DBG] Connection id "0HMTL6U7A280L" completed keep alive response.
+2023-09-14 22:31:58.790 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44447/api - - - 404 0 - 29.8057ms
+2023-09-14 22:31:58.791 +07:00 [DBG] Connection id "0HMTL6U7A280L" received FIN.
+2023-09-14 22:31:58.793 +07:00 [DBG] Connection id "0HMTL6U7A280L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:31:58.795 +07:00 [DBG] Connection id "0HMTL6U7A280L" disconnecting.
+2023-09-14 22:31:58.797 +07:00 [DBG] Connection id "0HMTL6U7A280L" stopped.
+2023-09-14 22:32:57.492 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IdentityServer:BackChannelLogoutClient'
+2023-09-14 22:33:07.506 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:33:07.510 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0245ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:33:08.594 +07:00 [DBG] Connection id "0HMTL6U7A280I" is closing.
+2023-09-14 22:33:08.605 +07:00 [DBG] Connection id "0HMTL6U7A280I" is closed. The last processed stream ID was 3.
+2023-09-14 22:33:08.612 +07:00 [VRB] Connection id "0HMTL6U7A280I" sending "GOAWAY" frame for stream ID 0 with length 8 and flags 0x0.
+2023-09-14 22:33:08.618 +07:00 [DBG] Connection id "0HMTL6U7A280I" received FIN.
+2023-09-14 22:33:08.620 +07:00 [DBG] The connection queue processing loop for 0HMTL6U7A280I completed.
+2023-09-14 22:33:08.622 +07:00 [DBG] Connection id "0HMTL6U7A280I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:33:08.641 +07:00 [DBG] Connection id "0HMTL6U7A280I" stopped.
+2023-09-14 22:33:17.517 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:33:17.524 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0099ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:33:27.546 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:33:27.552 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:33:37.563 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:33:37.569 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:33:47.578 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:33:47.580 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0546ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:33:57.590 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:33:57.592 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:34:07.602 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:34:07.604 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:34:17.619 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:34:17.624 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:34:22.950 +07:00 [DBG] Connection id "0HMTL6U7A280M" received FIN.
+2023-09-14 22:34:22.952 +07:00 [DBG] Connection id "0HMTL6U7A280M" accepted.
+2023-09-14 22:34:22.953 +07:00 [DBG] Connection id "0HMTL6U7A280M" started.
+2023-09-14 22:34:22.954 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-14 22:34:22.958 +07:00 [DBG] Connection id "0HMTL6U7A280M" stopped.
+2023-09-14 22:34:22.959 +07:00 [DBG] Connection id "0HMTL6U7A280M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:34:23.172 +07:00 [DBG] Connection id "0HMTL6U7A280N" accepted.
+2023-09-14 22:34:23.173 +07:00 [DBG] Connection id "0HMTL6U7A280N" started.
+2023-09-14 22:34:23.177 +07:00 [DBG] Connection 0HMTL6U7A280N established using the following protocol: "Tls13"
+2023-09-14 22:34:23.199 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2023-09-14 22:34:23.200 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-09-14 22:34:23.202 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "SETTINGS" frame for stream ID 0 with length 30 and flags "NONE".
+2023-09-14 22:34:23.204 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-09-14 22:34:23.205 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2023-09-14 22:34:23.207 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "HEADERS" frame for stream ID 1 with length 462 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-09-14 22:34:23.209 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2023-09-14 22:34:23.209 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-09-14 22:34:23.212 +07:00 [VRB] All hosts are allowed.
+2023-09-14 22:34:23.212 +07:00 [DBG] The request path /swagger/index.html does not match an existing file
+2023-09-14 22:34:23.374 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-14 22:34:23.375 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "HEADERS" frame for stream ID 1 with length 66 and flags "END_HEADERS".
+2023-09-14 22:34:23.417 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 1 with length 1024 and flags "NONE".
+2023-09-14 22:34:23.419 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 1 with length 3072 and flags "NONE".
+2023-09-14 22:34:23.425 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 1 with length 1068 and flags "NONE".
+2023-09-14 22:34:23.432 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-14 22:34:23.434 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2023-09-14 22:34:23.434 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 225.0291ms
+2023-09-14 22:34:23.497 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "HEADERS" frame for stream ID 3 with length 108 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-09-14 22:34:23.500 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "HEADERS" frame for stream ID 5 with length 57 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-09-14 22:34:23.501 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-09-14 22:34:23.502 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-09-14 22:34:23.505 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "HEADERS" frame for stream ID 3 with length 90 and flags "END_HEADERS".
+2023-09-14 22:34:23.507 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 3 with length 12342 and flags "NONE".
+2023-09-14 22:34:23.511 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2023-09-14 22:34:23.511 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 10.0716ms
+2023-09-14 22:34:23.513 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "HEADERS" frame for stream ID 5 with length 119 and flags "END_HEADERS".
+2023-09-14 22:34:23.517 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 9986 and flags "NONE".
+2023-09-14 22:34:23.521 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.524 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.526 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.529 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.532 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.534 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.537 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.539 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.542 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.543 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.546 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.547 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.550 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.552 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2023-09-14 22:34:23.554 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 160 and flags "NONE".
+2023-09-14 22:34:23.554 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.2759ms
+2023-09-14 22:34:23.556 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2023-09-14 22:34:24.325 +07:00 [VRB] Connection id "0HMTL6U7A280N" received "HEADERS" frame for stream ID 7 with length 66 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2023-09-14 22:34:24.329 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-09-14 22:34:24.330 +07:00 [VRB] All hosts are allowed.
+2023-09-14 22:34:24.331 +07:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2023-09-14 22:34:24.460 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "HEADERS" frame for stream ID 7 with length 65 and flags "END_HEADERS".
+2023-09-14 22:34:24.463 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2023-09-14 22:34:24.464 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 7 with length 5237 and flags "NONE".
+2023-09-14 22:34:24.466 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.2674ms
+2023-09-14 22:34:24.466 +07:00 [VRB] Connection id "0HMTL6U7A280N" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2023-09-14 22:34:27.643 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:34:27.645 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:34:29.925 +07:00 [DBG] Connection id "0HMTL6U7A280N" received FIN.
+2023-09-14 22:34:29.927 +07:00 [DBG] Connection id "0HMTL6U7A280N" is closed. The last processed stream ID was 7.
+2023-09-14 22:34:29.927 +07:00 [DBG] The connection queue processing loop for 0HMTL6U7A280N completed.
+2023-09-14 22:34:29.928 +07:00 [DBG] Connection id "0HMTL6U7A280N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-14 22:34:29.943 +07:00 [DBG] Connection id "0HMTL6U7A280N" stopped.
+2023-09-14 22:34:37.656 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:34:37.658 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:34:47.670 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:34:47.676 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:34:57.691 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:34:57.693 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2023-09-14 22:35:07.698 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-09-14 22:35:07.701 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
